@@ -53,7 +53,7 @@ h2 {
   gap: 2rem;
 }
 .container {
-  max-width: 78.125rem;
+  max-width: 81.25rem;
   margin: 0 auto;
 }
 .text-center {
@@ -101,4 +101,20 @@ h2 {
 .orange-btn {
   border-radius: 0.9375rem;
   padding: 0.7rem 1.875rem;
+}
+.head-content {
+  min-width: 300px;
+}
+#header-content {
+  margin-top: 4.375rem;
+}
+#header-content > * {
+  width: 50%;
+}
+.header-img {
+  min-width: 300px;
+}
+#header-content .header-img img {
+  max-width: 100%;
+  padding: 50px;
 }
