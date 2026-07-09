@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Resetting */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+}
+h2 {
+  line-height: 3.75rem;
+}
+/* Layout */
+.flex {
+  display: flex;
+}
+.jus-spacebw {
+  justify-content: space-between;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.container {
+  max-width: 78.125rem;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+/* Theme */
+
+:root {
+  --color-grey--: #555;
+  --color-black--: #000;
+  --color-white--: #fff;
+  --color--orange--: #ff523b;
+}
+.text-white {
+  color: var(--color-white--);
+}
+.text-grey {
+  color: var(--color-grey--);
+}
+.bg-black {
+  background-color: var(--color-black--);
+}
+.bg-orange {
+  background-color: var(--color--orange--);
+}
+
+/* Header */
+
+.navbar {
+  padding: 1.25rem;
+}
+#header-content {
+  align-items: center;
+}
+.lead-text {
+  margin-block: 30px;
+}
+.orange-btn {
+  border-radius: 0.9375rem;
+  padding: 0.7rem 1.875rem;
+}
