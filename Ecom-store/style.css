@@ -46,6 +46,9 @@ h2 {
 .jus-spacebw {
   justify-content: space-between;
 }
+.jus-spacearound {
+  justify-content: space-around;
+}
 .gap-1 {
   gap: 1rem;
 }
@@ -156,4 +159,16 @@ h2 {
   #header-content {
     flex-direction: column;
   }
+}
+
+/* Category section */
+
+#category-section {
+  margin-top: 4.375rem;
+}
+.card-container {
+  width: 67.5rem;
+}
+.card-container > * {
+  width: 30%;
 }
