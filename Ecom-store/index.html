@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Red Store</title>
@@ -13,30 +17,32 @@
         <!-- navbar start -->
         <nav class="navbar flex jus-spacebw text-grey align-center">
           <a href="#"
-            ><img
-              src="/Ecom-store/images/logo.png"
-              width="125px"
-              alt="Red-store logo"
+            ><img src="/images/logo.png" width="125px" alt="Red-store logo"
           /></a>
-          <ul class="flex gap-1">
-            <li>Home</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Acount</li>
+          <div class="menuitems flex jus-spacebw gap-1 align-center">
+            <ul class="flex gap-1 js-spacebw">
+              <li>Home</li>
+              <li>Products</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Acount</li>
+            </ul>
             <a href="#"
               ><img
-                src="/Ecom-store/images/cart.png"
+                src="/images/cart.png"
                 alt="Cart-icon"
                 width="30px"
                 height="30px"
             /></a>
-          </ul>
+            <button class="hamburger" id="hamburger-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </nav>
         <!-- navbar end -->
 
         <!-- Header-img,header-img start -->
-        <section id="header-content" class="flex align-center">
+        <section id="header-content" class="flex jus-spacebw">
           <div class="head-text">
             <h1>
               Give Your Workout <br />
