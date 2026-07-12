@@ -159,6 +159,9 @@ h2 {
   #header-content {
     flex-direction: column;
   }
+  #header-content > * {
+    width: 100%;
+  }
 }
 
 /* Category section */
