@@ -46,8 +46,9 @@ h2 {
 .jus-spacebw {
   justify-content: space-between;
 }
-.jus-spacearound {
-  justify-content: space-around;
+
+.jus-center {
+  justify-content: center;
 }
 .gap-1 {
   gap: 1rem;
@@ -174,4 +175,22 @@ h2 {
 }
 .card-container > * {
   width: 30%;
+}
+.card-container img {
+  aspect-ratio: 1;
+  height: 345px;
+}
+/* Featured section */
+
+.feature-heading {
+  margin-top: 4.375rem;
+  color: var(--color-grey--);
+}
+
+hr {
+  background: var(--color--orange--);
+  height: 0.3125rem;
+  width: 5rem;
+  border-radius: 0.9375rem;
+  margin: 0 auto;
 }
