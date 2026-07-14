@@ -193,4 +193,13 @@ hr {
   width: 5rem;
   border-radius: 0.9375rem;
   margin: 0 auto;
+  margin-bottom: 5.625rem;
+}
+
+#featured-section .card-container .card {
+  width: 14.8438rem;
+}
+#featured-section .card-container img {
+  height: 19.7913rem;
+  object-fit: contain;
 }
