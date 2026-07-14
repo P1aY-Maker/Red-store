@@ -195,11 +195,43 @@ hr {
   margin: 0 auto;
   margin-bottom: 5.625rem;
 }
+#featured-section .card-container {
+  margin: 0 auto;
+}
 
 #featured-section .card-container .card {
   width: 14.8438rem;
+  margin-block: 1.875rem;
 }
 #featured-section .card-container img {
   height: 19.7913rem;
   object-fit: contain;
+  width: 100%;
+}
+
+#featured-section .card-container .title {
+  font-weight: 500;
+  color: var(--color-grey--);
+}
+/* footer */
+.foot-img img {
+  width: 7.5rem;
+}
+
+.foot-el {
+  padding-block: 3.125rem;
+}
+
+.foot-el p {
+  padding-block: 1.25rem;
+}
+
+.foot-el .logo-foot {
+  height: 3.3125rem;
+  width: 11.25rem;
+  margin: 0 auto;
+}
+
+footer .footer-text {
+  font-size: 0.875rem;
 }
