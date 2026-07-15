@@ -235,3 +235,13 @@ hr {
 footer .footer-text {
   font-size: 0.875rem;
 }
+
+/* Dark-mode */
+.dark {
+  color: white;
+  background-color: #000;
+}
+.light {
+  color: black;
+  background-color: white;
+}
