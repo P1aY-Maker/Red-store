@@ -245,3 +245,25 @@ footer .footer-text {
   color: black;
   background-color: white;
 }
+
+/* Product page */
+
+.small-img-container {
+  width: 26.5625rem;
+  height: 7.5625rem;
+}
+.small-img-container img {
+  width: 100%;
+}
+.product-img {
+  height: 29.6875rem;
+  width: 29.6875rem;
+  contain: content;
+  display: flex;
+  margin-bottom: 5px;
+}
+.product-container {
+  margin: 0 auto;
+  width: 67.5rem;
+  margin-top: 5rem;
+}
