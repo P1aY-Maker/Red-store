@@ -173,7 +173,7 @@ h2 {
 .card-container {
   width: 67.5rem;
 }
-.card-container > * {
+#category-section .card-container > * {
   width: 30%;
 }
 .card-container img {
@@ -266,4 +266,19 @@ footer .footer-text {
   margin: 0 auto;
   width: 67.5rem;
   margin-top: 5rem;
+}
+
+/* ALl products section */
+
+#search-section .card-container {
+  margin: 6.25rem auto 3.125rem;
+  align-items: center;
+}
+
+#search-section .search-field {
+  width: 18.75rem;
+  text-align: center;
+  border-radius: 1.5625rem;
+  font-size: 25px;
+  height: 2.5rem;
 }
